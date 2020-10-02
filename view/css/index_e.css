@@ -38,3 +38,29 @@ label i{ font-size:16px;    opacity:0; }
 label:hover div{ background:#16a085; }
 input:checked+label i{ opacity:1; }
 input:checked+label div{ background:#16a085; }
+
+
+/*button*/
+.button {
+  display       : inline-block;
+  border-radius : 50%;          /* 角丸       */
+  font-size     : 23pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 32px 81px;   /* 余白       */
+  background    : rgba(0, 179, 89, 0.94);     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 13px 13px 27px #666666;  /* 影の設定 */
+  border        : 2px solid rgba(0, 179, 89, 0.94);    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : rgba(0, 179, 89, 0.94);     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+input[type="submit"]{ display : block }
+
+div.space{ height: 75px; }
