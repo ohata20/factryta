@@ -23,6 +23,9 @@ def index():
 def index2():
 	return template("index2.html")
 
+@route("/MenuList", method="POST")
+def MenuList():
+	return template("index2.html")
 
 
 run(host='localhost', port=8080)
